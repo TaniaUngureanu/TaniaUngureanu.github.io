@@ -2,148 +2,243 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Curs 02</title>
+    <title>Personal Blog / Welcome!</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+
   <body>
-    <header>
-      Site header
-      </header>
-    <nav>
-      <span>Link 1</span>
-      <span>Link 2</span>
-    </nav>
-    <aside>
-      lorem ipsum
-    </aside>
-    <article>
-      articol 1
-      <section>
-        section 1
-      </section>
-    </article>
-    <article>
-      articol 1
-      <section>
-        section 1
-      </section>
-    </article>
+    <div class="wrapper">
+      <ul class="slides">
+        <li id="firstVisibleSection">
+          <div id="showcase">
+            <h3> Hey, I'm </h3>
+            <h1> Tania Ungureanu </h1>
+          </div>
+        </li>
 
-    <a href = "#heading1">Go to Heading1</a>
-    <p>I will display &euro;</p>
-    <p>I will display &#8364;</p>
-    <p>I will display &#x20AC;</p>
-    <p>I will display &#x20AC;</p>
-    <p>I will display &#x20AC;</p>
-<div>
-  <span>
-    I will display &#x20AC;
-  </span>
-  <ol>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-  </ol>
+        <li class="visibleSection">
+          <header>
+            <div class="container">
+              <div id="branding">
+                <h1> Personal <span>Blog </span></h1>
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="posts.html" target="_blank">Posts</a></li>
+                  <li><a href="about.html" target="_blank">About</a></li>
+                  <li>
+                    <div>
+                      <input id="searchInput" type="search" placeholder="Search...">
+                      <button class="searchButton" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                  </li>
+              </nav>
+            </div>
+          </header>
+        </li>
 
-  <ul>
-    <li><em>I will display</em></li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li>I will display</li>
-    <li><strong>I will </strong> display</li>
-  </ul>
+        <li>
+          <div class="mainBlog">
+            <article>
+              <div class="blogEntry">
+                <img src="img/passion.jpg" alt="Enter key on a keyboard" width="100%" height="60%">
+                <div class="blogTextStyle">
+                <h3> Front-End Web Development</h3>
+                <h5>A new goal in life, <span class="opacity">March 26, 2018</span></h5>
+                <p>At the beginning it was just a thin idea, that maybe, just maybe
+                 an IT course would provide me with better chances at finding a new job. Not
+                  that my current job it's bad, but it became short in
+                  chalanges. It started as a hobby but, very soon it became clear
+                  that this will be a passion for life.</p>
+                <button class="blogButton"> READ MORE»</button>
+                </div>
+              </div>
 
-  <a href = "https://www.google.nl/">link</a>
+              <div class="blogEntry">
+                <img src="img/learning.jpg" alt="Never stop learning" width="100%" height="50%">
+                <div class="blogTextStyle">
+                  <h3>Investing in yourself</h3>
+                  <h5>Personal tips for easy learning, <span class="opacity">March 8, 2018</span></h5>
+                  <p> I do very much like to learn new things, and what I lack in
+                    free time I make up in diligence. Thus I came up with a plan
+                    to help my brain stay active and save some time, by creating
+                     a kind of <span>"Learning Agenda"</span>:</p>
+                  <table id="learningTable">
+                   <tr>
+                     <td>
+                       <ol type="1">
+                         <li>take online courses</li>
+                       </ol>
+                     </td>
+                     <td>
+                       <ol start="4">
+                         <li>ask mentors</li>
+                       </ol>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>
+                       <ol start="2">
+                         <li>read books</li>
+                       </ol>
+                     </td>
+                     <td>
+                       <ol start="5">
+                         <li>join seminars</li>
+                       </ol>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>
+                       <ol start="3">
+                         <li>reproduce examples</li>
+                       </ol>
+                     </td>
+                     <td>
+                       <ol start="6">
+                         <li>join groups</li>
+                       </ol>
+                     </td>
+                   </tr>
+                  </table>
+                  <button class="blogButton"> READ MORE»</button>
+                </div>
+              </div>
 
-  <h1 id= "heading1"> Heading 1 test </h1>
-<img src="images/pisica1.jpg" title = "Pisica" alt="pisica_not_found">
-<table cellspacing = "5" border="1" cellpadding = "10">
-<tr>
-  <td colspan = "2">test</td>
-  <td rowspan ="2">test</td>
-  <td>test</td>
-  <td>test</td>
-</tr>
-<tr>
-  <td>test</td>
-  <td>test</td>
-  <td>test</td>
-  <td>test</td>
-</tr>
-<tr>
-  <td>test</td>
-  <td>test</td>
-  <td>test</td>
-  <td>test</td>
-</tr>
-</table>
+              <div class="opinionForm">
+                <form>
+                  <fieldset>
+                    <leged>Your Feedback is most Welcomed!</legend>
+                    </br>
+                    <textarea> Please enter your thoughts
+                      and suggestions here.</textarea>
+                    <input class="blogButton" type="submit" value="SEND">
+                  </fieldset>
+                </form>
+              </div>
+            </article>
 
-<form action="index.html" method="post">>
-  <label for="fieldId1">First Name </label>
-  <input type="text" tabindex="1" name = "field1" id="fieldId1" value = "" placeholder="please enter text">
-<br/>
-  <label>Last Name
-    <input type="text" tabindex="2" name = "field2" value = "">
-  </label>
-<br/>
-  <input type="button" value="Button1">
-<br/>
-  <button> Button2 </button>
-<br/>
+            <aside>
+              <div class="blogCard">
+                <img src="img/books-coffee.jpg" alt="Books and Coffee" width="100%" height="40%">
+                <div class="blogTextStyle">
+                  <h3> Get to know me </h3>
+                  <p> Born and raised in Brasov, I had big dreams growing up.
+                     I was commited in becoming a singer, until people told menu
+                    I couldn't sing! So, I did the only other thing I could do:
+                    I went to school. I followed a carrier in economics; not out of
+                    passion, but because it was an adequate path at the time. It
+                    was not all that bad, and I was rather good at it, but it soon
+                    lost the excitement of having a job and being an adult. So, I
+                    started looking to fill a certain void in my life. I took german
+                    lesson, I graduated from the Chartered Accountant Exam, I became a
+                    real estate epraiser somewhere on the way, until finaly I found it:</p>
+                  <p><span>"I am a developer wanna be!"</span></p>
+                </div>
+              </div>
 
-  <textarea name"textarea" rows="8" cols="80"></textarea>
-<br/>
-  <label for="checkBoxTest"> Check Me </label>
-    <input id="checkBoxTest" type="checkbox" name="checkbox1" value="checkboxValue" checked>
-  <input type="checkbox" name="checkbox2" value="">
-  <input type="checkbox" name="checkbox3" value="">
-<br/>
-  <label for="radioOption1"> Radio Me! </label>
-    <input id= "radioOption1" type="radio" name="radio1" value="">
-  <label for="radioOption2"> Radio Me! </label>
-    <input id= "radioOption2" type="radio" name="radio1" value="">
-  <label for="radioOption3"> Radio Me! </label>
-    <input id= "radioOption3" type="radio" name="radio1" value="">
-<br/>
-  <select name="text">
-    <optgroup label="many, many, many options">
-      <option value="value4"> Value 4</option>
-      <option value="value5"> Value 5</option>
-      <option value="value6"> Value 6</option>
-    </optgroup>
-    <option value="value1"> Value 1</option>
-    <option value="value2"> Value 2</option>
-    <option value="value3" selected> Value 3</option>
-  </select>
-<br/>
-<input type="password" name="pass1" value="kjfdfkjjanf">
-<br/>
-<input type="reset" name="reset" value="Reset">
-<br/>
-<input type="submit" name="submit1" value="Submit"><br/>
-<input type="hidden" name="hiddenInput" value="userId">
+              <div class="blogPosts">
+                <div class="blogTextStyle">
+                  <h4>Popular Posts</h4>
+                  <p><strong> Check them out!</strong> </p>
+                </div>
+                <hr>
+                <div id="postsList">
+                  <ul>
+                    <li class="popularPostsContent">
+                      <img src="img/posts-1.jpg" alt="Code on computer screen" width="75px">
+                      <a href="https://www.youtube.com/watch?v=7ZXsPj43heo&index=1&list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh"><p><span >CSS Positioning Tutorial (12 videos)</span></a></br>
+                      <span >Learn CSS Positioning in 12 steps.</span></p>
+                    </li>
+                    <hr>
+                    <li class="popularPostsContent">
+                      <img src="img/posts-2.jpg" alt="HTML/CSS Logo" width="75px">
+                      <a href="https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG"><p><span >CSS Flexbox Tutorial (12 videos)</span></a></br>
+                      <span >Learn CSS Flex in 12 easy steps.</span></p>
+                    </li>
+                    <hr>
+                    <li class="popularPostsContent">
+                      <img src="img/posts-3.jpg" alt="HTML/CSS Logo" width="75px">
+                      <a href="https://youtu.be/y3UH2gAhwPI"><p><span >HTML and CSS Tutorial for Beginners</span></a></br>
+                      <span >A guide to learning HTML and CSS</span></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
+              <div class="otherBlogs">
+                <div class="blogTextStyle">
+                  <h4>Related blogs</h4>
+                  <p><strong>You'll find it here!</strong></p>
+                </div>
+                <hr>
+                <input id="emailSearch" type="search" placeholder="Enter e-mail address">
+                <button>Search</button>
+                <hr>
+                <ul>
+                  <li class="blogEmail"><a href="https://fnitu.github.io" alt="Florin Nitu's Blog" target="_blank">Florin Nitu - Blog</a></li>
+                  <li class="blogEmail"><a href="https://apryllya.github.io" alt="Alina Ivan's Blog" target="_blank">Alina Ivan - Blog</a></li>
+                  <li class="blogEmail"><a href="https://puftu.github.io" alt="Paul Luchian's Blog" target="_blank">Paul Luchian - Blog</a></li>
+                  <li class="blogEmail"><a href="https://github.com/ravacriss" alt="Razvan Cristoloveanu's Blog" target="_blank">Razvan Cristoloveanu - Blog</a></li>
+                  <li class="blogEmail"><a href="https://radums.github.io/Radu" alt="Sebastian Radu's Blog" target="_blank">Sebastian Radu - Blog</a></li>
+                  <li class="blogEmail"><a href="https://dragosbv77.github.io" alt="Dragos Daniel's Blog" target="_blank">Dragos Daniel - Blog</a></li>
+                  <li class="blogEmail"><a href="https://levitchiv.github.io/index.html" alt="Vadim Levitchiv's Blog" target="_blank">Vadim Levitchiv - Blog</a></li>
+                </ul>
+              </div>
+            </aside>
+            <div class="clear"></div>
+          </div> <!--End mainBlog-->
+        </li>
 
-</form>
+        <li>
+          <div class="bestPractices">
+            <h3> ~ <span>Best Practices:</span> ~</h3>
+              <div class="bestPracticesText">
+                <p>Pursue Passions, Not Paychecks </br>
+                  Be Crafty, Lovable, Systematic, and Relentless </br>
+                  Don't Take Yourself Too Seriously </br>
+                  Read Every Day </br>
+                  Believe in Change </br>
+                  Prioritize the Customer </br>
+                  Invest in Ideas That Matter </br>
+                  Be Lazy and Dumb
+                </p>
+              </div>
+          </div>
+        </li>
 
-<iframe src="index.html" width="300" height="300"></iframe>
+        <li>
+          <div class="letsGetInTouch">
+            <p> Let's get in touch. <a href="https://www.linkedin.com/in/taniaungureanu" target="_blank">LinkedIn</a> or <a href="https://m.me/tania.ungureanu.3" target="_blank">Facebook</a> messages work best. </p>
+            <div class="logoImages">
+              <a href="https://www.linkedin.com/in/taniaungureanu" target="_blank"><img src="img/linkedInLogo.jpg" alt="LinkedIn Logo" width="100px"></a>
+              <a href="https://m.me/tania.ungureanu.3" target="_blank"><img src="img/facebookLogo.jpg" alt="Facebook Logo" width="100px"></a>
+            </div>
+          </div>
+        </li>
 
+        <li>
+          <footer>
+           <div class="container">
+             <button class="previousButton"> Previous</button>
+             <button class="nextButton"> Next»</button>
+             <div class="footerText">
+               <ul>
+                 <li class="footerColumnLeft">
+                   <p>&#169;All rights reserved, 2018.</p>
+                 </li>
+                 <li class="footerColumnRight">
+                   <p><a href="#" class="backTop"> Back Top </a></p>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </footer>
+        </li>
 
-</div>
-
-
-<footer>
-  &#169;
-</footer>
-
+      </ul>
+    </div>
   </body>
 </html>
