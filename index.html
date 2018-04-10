@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Blog / Welcome!</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <ul class="slides">
+        <li id="firstVisibleSection">
+          <div id="showcase">
+            <h3> Hey, I'm </h3>
+            <h1> Tania Ungureanu </h1>
+          </div>
+        </li>
+
+        <li class="visibleSection">
+          <header>
+            <div class="container">
+              <div id="branding">
+                <h1> Personal <span>Blog </span></h1>
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="posts.html" target="_blank">Posts</a></li>
+                  <li><a href="about.html" target="_blank">About</a></li>
+                  <li>
+                    <div>
+                      <input id="searchInput" type="search" placeholder="Search...">
+                      <button class="searchButton" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                  </li>
+              </nav>
+            </div>
+          </header>
+        </li>
+
+        <li>
+          <div class="mainBlog">
+            <article>
+              <div class="blogEntry">
+                <img src="images/passion.jpg" alt="Enter key on a keyboard" width="100%">
+                <div class="blogTextStyle">
+                <h3> Front-End Web Development</h3>
+                <h5>A new goal in life, <span class="opacity">March 26, 2018</span></h5>
+                <p>At the beginning it was just a faint idea, that maybe, just maybe
+                 an IT course would provide me better chances to find a new job. It's not
+                  that my current job is bad, it simply does not offer me any more
+                  chalanges. It all started as a hobby but, it very soon became clear
+                  that this would be a passion for a lifetime.</p>
+                <button class="blogButton"> READ MORE»</button>
+                </div>
+              </div>
+
+              <div class="blogEntry">
+                <img src="images/learning.jpg" alt="Never stop learning" width="100%">
+                <div class="blogTextStyle">
+                  <h3>Investing in yourself</h3>
+                  <h5>Personal tips for easy learning, <span class="opacity">March 8, 2018</span></h5>
+                  <p> I like to learn new things a lot, and I try to be as
+                    diligent as possible in order to make up for my lack of
+                    free time. Thus I came up with a plan in order to help my
+                    brain stay active and also to save some time, by creating
+                    a kind of <span>"Learning Agenda"</span>:</p>
+                  <table id="learningTable">
+                   <tr>
+                     <td>
+                       <ol type="1">
+                         <li>take online courses</li>
+                       </ol>
+                     </td>
+                     <td>
+                       <ol start="4">
+                         <li>ask mentors</li>
+                       </ol>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>
+                       <ol start="2">
+                         <li>read books</li>
+                       </ol>
+                     </td>
+                     <td>
+                       <ol start="5">
+                         <li>join seminars</li>
+                       </ol>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>
+                       <ol start="3">
+                         <li>reproduce examples</li>
+                       </ol>
+                     </td>
+                     <td>
+                       <ol start="6">
+                         <li>join groups</li>
+                       </ol>
+                     </td>
+                   </tr>
+                  </table>
+                  <button class="blogButton"> READ MORE»</button>
+                </div>
+              </div>
+
+              <div class="opinionForm">
+                <form>
+                  <fieldset>
+                    <leged>Your Feedback is most Welcomed!</legend>
+                    </br>
+                    <textarea> Please enter your thoughts
+                      and suggestions here.</textarea>
+                    <input class="blogButton" type="submit" value="SEND">
+                  </fieldset>
+                </form>
+              </div>
+            </article>
+
+            <aside>
+              <div class="blogCard">
+                <img src="images/books-coffee.jpg" alt="Books and Coffee" width="100%" height="40%">
+                <div class="blogTextStyle">
+                  <h3> Get to know me </h3>
+                  <p> Born and raised in Brasov, I had big dreams growing up.
+                     I was committed to become a singer, until people told me
+                    I couldn't sing! So, I did the only other thing I could:
+                    I went to school. I followed a carrier in economics; not out of
+                    passion, but because it was an adequate path at the time. It
+                    was not that bad at all, and I was rather good at it, but I soon
+                    lost the excitement of having a job and being an adult. So, I
+                    started looking for ways to fill a certain void in my life. I took up some german
+                    lessons, I passed the Chartered Accountant Exam, I became a
+                    real estate appraiser somewhere on the way, until I finaly found it:</p>
+                    <p><span>I am a developer wanna be!</span></p>
+                  </div>
+              </div>
+
+              <div class="blogPosts">
+                <div class="blogTextStyle">
+                  <h4>Popular Posts</h4>
+                  <p><strong> Check them out!</strong> </p>
+                </div>
+                <hr>
+                <div id="postsList">
+                  <ul>
+                    <li class="popularPostsContent">
+                      <img src="images/posts-1.jpg" alt="Code on computer screen" width="75px">
+                      <a href="https://www.youtube.com/watch?v=7ZXsPj43heo&index=1&list=PL4cUxeGkcC9hudKGi5o5UiWuTAGbxiLTh"><p><span >CSS Positioning Tutorial (12 videos)</span></a></br>
+                      <span >Learn CSS Positioning in 12 steps.</span></p>
+                    </li>
+                    <hr>
+                    <li class="popularPostsContent">
+                      <img src="images/posts-2.jpg" alt="HTML/CSS Logo" width="75px">
+                      <a href="https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG"><p><span >CSS Flexbox Tutorial (12 videos)</span></a></br>
+                      <span >Learn CSS Flex in 12 easy steps.</span></p>
+                    </li>
+                    <hr>
+                    <li class="popularPostsContent">
+                      <img src="images/posts-3.jpg" alt="HTML/CSS Logo" width="75px">
+                      <a href="https://youtu.be/y3UH2gAhwPI"><p><span >HTML and CSS Tutorial for Beginners</span></a></br>
+                      <span >A guide to learning HTML and CSS</span></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="otherBlogs">
+                <div class="blogTextStyle">
+                  <h4>Related blogs</h4>
+                  <p><strong>You'll find it here!</strong></p>
+                </div>
+                <hr>
+                <input id="emailSearch" type="search" placeholder="Enter e-mail address">
+                <button>Search</button>
+                <hr>
+                <ul>
+                  <li class="blogEmail"><a href="https://fnitu.github.io" alt="Florin Nitu's Blog" target="_blank">Florin Nitu - Blog</a></li>
+                  <li class="blogEmail"><a href="https://apryllya.github.io" alt="Alina Ivan's Blog" target="_blank">Alina Ivan - Blog</a></li>
+                  <li class="blogEmail"><a href="https://puftu.github.io" alt="Paul Luchian's Blog" target="_blank">Paul Luchian - Blog</a></li>
+                  <li class="blogEmail"><a href="https://github.com/ravacriss" alt="Razvan Cristoloveanu's Blog" target="_blank">Razvan Cristoloveanu - Blog</a></li>
+                  <li class="blogEmail"><a href="https://radums.github.io/Radu" alt="Sebastian Radu's Blog" target="_blank">Sebastian Radu - Blog</a></li>
+                  <li class="blogEmail"><a href="https://dragosbv77.github.io" alt="Dragos Daniel's Blog" target="_blank">Dragos Daniel - Blog</a></li>
+                  <li class="blogEmail"><a href="https://levitchiv.github.io/index.html" alt="Vadim Levitchiv's Blog" target="_blank">Vadim Levitchiv - Blog</a></li>
+                </ul>
+              </div>
+            </aside>
+            <div class="clear"></div>
+          </div> <!--End mainBlog-->
+        </li>
+
+        <li>
+          <div class="bestPractices">
+            <h3> ~ <span>Best Practices:</span> ~</h3>
+              <div class="bestPracticesText">
+                <p>Pursue Passions, Not Paychecks </br>
+                  Be Crafty, Lovable, Systematic, and Relentless </br>
+                  Don't Take Yourself Too Seriously </br>
+                  Read Every Day </br>
+                  Believe in Change </br>
+                  Prioritize the Customer </br>
+                  Invest in Ideas That Matter </br>
+                  Be Lazy and Dumb
+                </p>
+              </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="letsGetInTouch">
+            <p> Let's get in touch. <a href="https://www.linkedin.com/in/taniaungureanu" target="_blank">LinkedIn</a> or <a href="https://m.me/tania.ungureanu.3" target="_blank">Facebook</a> messages work best. </p>
+            <div class="logoImages">
+              <a href="https://www.linkedin.com/in/taniaungureanu/" target="_blank"><img src="images/linkedInLogo.jpg" alt="LinkedIn Logo" width="100px"></a>
+              <a href="https://www.facebook.com/tania.ungureanu.3" target="_blank"><img src="images/facebookLogo.jpg" alt="Facebook Logo" width="100px"></a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <footer>
+           <div class="container">
+             <button class="previousButton"> Previous</button>
+             <button class="nextButton"> Next»</button>
+             <div class="footerText">
+               <ul>
+                 <li class="footerColumnLeft">
+                   <p>&#169;All rights reserved, 2018.</p>
+                 </li>
+                 <li class="footerColumnRight">
+                   <p><a href="#" class="backTop"> Back Top </a></p>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </footer>
+        </li>
+
+      </ul>
+    </div>
+  </body>
+</html>
