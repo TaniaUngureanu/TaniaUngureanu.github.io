@@ -109,7 +109,7 @@ footer a:hover {
   position: absolute;
 }
  #firstVisibleSection {
-   background-image: url('img/Mommy-and-Me.jpg');
+   background-image: url('images/Mommy-and-Me.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: right bottom;
@@ -169,6 +169,7 @@ footer a:hover {
 .blogTextStyle {
   padding-left: 10px;
   text-align: left;
+  overflow: auto;
 }
 
 .blogTextStyle h3{
@@ -220,12 +221,13 @@ footer a:hover {
 /*BlogCard- Personal info*/
 
 .blogCard {
-  height: 710px;
+  max-height: 710px;
   margin-bottom: 20px;
   font-size: 20px;
   box-shadow: -5px 5px 5px grey;
   border: 1px solid grey;
   background-color: #eeeedd;
+  padding-bottom: 10px;
 }
 
 .blogCard span {
@@ -314,6 +316,11 @@ table#learningTable {
   padding: 0 0 10px 10px;
 }
 
+.blogEmail a{
+  font-size: 17px;
+
+}
+
 ::placeholder {
     color: red;
     opacity: 1;
@@ -396,3 +403,4 @@ a.backTop {
   color: #e8491d;
   font-weight: bold;
 }*/
+
