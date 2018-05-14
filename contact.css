@@ -1,0 +1,96 @@
+body {
+  font-size: 15px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #fcece8;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.row div:first-child{
+  overflow: hidden;
+  padding: 0;
+}
+
+/*Header */
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p{
+  font-size: 20px;
+}
+
+header a:hover {
+    color: #e8491d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.branding span {
+  color: #e8491d;
+}
+
+/*Page Content */
+
+
+address {
+  font-size: 20px;
+}
+
+.personalLinks a {
+  color: #000;
+  text-decoration: none;
+}
+
+.personalLinks a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Footer */
+.footer {
+  background-color: #35424a;
+  color: #ffffff;
+  border-top: #e8491d 3px solid;
+  overflow: hidden;
+}
+
+.footer a:hover {
+  color: #e8491d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.backTop {
+  color: white;
+}
+
+.previousButton a,
+.nextButton a{
+  text-decoration: none;
+  color: #000;
+}
+
+.previousButton,
+.nextButton {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.backTop a:hover {
+  color: #e8491d;
+  font-weight: bold;
+}

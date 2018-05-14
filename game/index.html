@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock, paper, scissors - Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>Rock-Paper-Scissors</h1>
+
+    <div class="container1">
+      <h2> One "click" to rule them all!</h2>
+      <div class="">
+        <button id="playButton" type="button" name="button">PLAY</button>
+      </div>
+      <div class="">
+        Computer Choice: <span id="computerChoice"></span>
+      </div>
+      <div class="">
+        User Choice: <span id="userChoice"></span>
+      </div>
+      <div class="">
+        Outcome: <span id="gameResult"></span>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="container2">
+      <h2>Stand up for your "option"!</h2>
+      <div class="">
+        <select id="userList">
+          <option id="default" value="" selected>Choose your weapon</option>
+          <option id="userRock" value="0">Rock</option>
+          <option id="userPaper" value="1">Paper</option>
+          <option id="userScissors" value="2">Scissors</option>
+        </select>
+      </div>
+
+      <div class="">
+        <button id="btn" type="button" name="button">PLAY</button>
+        <button id="clearBtn" type="button" name="button">RESET</button>
+      </div>
+      <div class="">
+        Computer Choice: <span id="computerGame"></span>
+      </div>
+      <div class="">
+        User Choice: <span id="userGame"></span>
+      </div>
+      <div class="">
+        Outcome: <span id="outcomeText"></span>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

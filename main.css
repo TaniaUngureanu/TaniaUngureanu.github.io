@@ -1,0 +1,208 @@
+body {
+  font-size: 15px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #fcece8;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+h3,
+h4 {
+    font-size: 25px;
+}
+
+p,
+table,
+h5 {
+  font-size: 20px;
+}
+
+a{
+  font-size: 18px;
+}
+
+.row div:first-child {
+  overflow: hidden;
+}
+
+
+/*Parallax efect */
+
+#firstVisibleSection {
+   background-image: url('images/Mommy-and-Me.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right bottom;
+   background-attachment: fixed;
+   padding-top: 260px;
+   padding-bottom: 310px;
+ }
+
+ .visibleSection {
+   outline-style: none;
+   position: relative;
+ }
+
+
+ #showcase .h3 {
+   color: #ffffff;
+   position: absolute;
+   top: 70px; /*70*/
+   left: 60px; /*60*/
+ }
+
+ #showcase .h1 {
+   color: #ffffff;
+   position: absolute;
+   top: 120px; /*120*/
+   left: 90px;/*120*/
+ }
+
+ /*Header*/
+ header {
+  background-color: #35424a;
+  color: #ffffff;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+}
+
+header a:hover {
+  color: #e8491d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header span {
+  color: #e8491d;
+}
+
+
+/*content*/
+
+.btn:hover {
+  background-color: #e8491d;
+}
+
+.blogEntry,
+.opinionForm,
+.blogCard,
+.blogPosts,
+.otherBlogs{
+  box-shadow: 5px 5px 5px grey;
+  background-color: #eeeedd;
+}
+
+.popularPostsContent{
+  background-color: #eeeedd;
+}
+
+.blogEntry img {
+  height: 350px;
+}
+
+.form-control{
+  background-color: #fcece8;
+}
+
+.blogButton:hover,
+.previousButton:hover,
+.nextButton:hover {
+  background-color: #b8b894;
+  color: black;
+}
+
+/*Footer */
+.footer {
+  background-color: #35424a;
+  color: #ffffff;
+  border-top: #e8491d 3px solid;
+}
+
+.footer a:hover {
+  color: #e8491d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nextButton {
+  background-color: white;
+  color: black;
+}
+
+.nextButton a{
+  text-decoration: none;
+  color: #000;
+}
+
+a.backTop {
+  color: white;
+}
+.backTop a:hover {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+  #firstVisibleSection {
+    background-image: url('images/Mommy-and-Me.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    min-height: 600px;
+  }
+
+  #showcase .h3 {
+    top: 20px;
+    left: 60px;
+  }
+
+  #showcase .h1 {
+    top:70px;
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  #firstVisibleSection {
+    background-image: url('images/Mommy-and-Me.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    min-height: 400px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  #showcase .h3{
+    top: 0;
+    left: 0;
+  }
+
+  #showcase .h1{
+    top: 50px;
+    left: 0;
+  }
+
+.blogEntry img {
+  max-height: 250px;
+}
+
+.blogEntry h3,
+ .blogEntry h5{
+  text-align: left;
+}
+
+}
